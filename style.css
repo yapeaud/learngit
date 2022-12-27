@@ -1,0 +1,25 @@
+/* Dispositifs très petits (téléphones, 600px et moins) */
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Petits appareils uy(tablettes en format portrait et grands téléphones, 600px et plus) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Appareils de taille moyenne (tablettes en format paysage, 768px et plus) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Appareils de grande taille (ordinateurs portables/de bureau, 992px et plus) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Dispositifs extra-larges (ordinateurs portables et de bureau de grande taille, 1200px et plus) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
+  
